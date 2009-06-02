@@ -1,0 +1,47 @@
+<NotepadPlus>
+    <InternalCommands>
+        <Shortcut id="42022" Ctrl="no" Alt="yes" Shift="no" Key="220" />
+        <Shortcut id="42035" Ctrl="yes" Alt="no" Shift="no" Key="220" />
+        <Shortcut id="42036" Ctrl="yes" Alt="no" Shift="yes" Key="220" />
+        <Shortcut id="44025" Ctrl="yes" Alt="yes" Shift="no" Key="32" />
+        <Shortcut id="44009" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43005" Ctrl="yes" Alt="no" Shift="no" Key="123" />
+        <Shortcut id="43006" Ctrl="no" Alt="no" Shift="no" Key="123" />
+        <Shortcut id="43007" Ctrl="no" Alt="no" Shift="yes" Key="123" />
+        <Shortcut id="43009" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="41003" Ctrl="yes" Alt="no" Shift="no" Key="109" />
+        <Shortcut id="44032" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <Shortcut id="43011" Ctrl="yes" Alt="no" Shift="no" Key="191" />
+        <Shortcut id="50005" Ctrl="yes" Alt="no" Shift="no" Key="188" />
+        <Shortcut id="42021" Ctrl="yes" Alt="no" Shift="no" Key="190" />
+        <Shortcut id="43013" Ctrl="yes" Alt="no" Shift="no" Key="81" />
+        <Shortcut id="1054" Ctrl="no" Alt="no" Shift="no" Key="117" />
+        <Shortcut id="44042" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </InternalCommands>
+    <Macros>
+        <Macro name="Trim Trailing and save" Ctrl="no" Alt="yes" Shift="yes" Key="83">
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="1" message="2170" wParam="0" lParam="0" sParam=" " />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="0" message="2327" wParam="0" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="42024" lParam="0" sParam="" />
+            <Action type="2" message="0" wParam="41006" lParam="0" sParam="" />
+        </Macro>
+    </Macros>
+    <UserDefinedCommands>
+        <Command name="launch in Firefox" Ctrl="yes" Alt="yes" Shift="yes" Key="88">firefox &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="launch in IE" Ctrl="yes" Alt="yes" Shift="yes" Key="73">iexplore &quot;$(FULL_CURRENT_PATH)&quot;</Command>
+        <Command name="Get php help" Ctrl="no" Alt="yes" Shift="no" Key="112">http://www.php.net/%20$(CURRENT_WORD)</Command>
+        <Command name="Google Search" Ctrl="no" Alt="yes" Shift="no" Key="113">http://www.google.com/search?q=$(CURRENT_WORD)</Command>
+        <Command name="Wikipedia Search" Ctrl="no" Alt="yes" Shift="no" Key="114">http://en.wikipedia.org/wiki/Special:Search?search=$(CURRENT_WORD)</Command>
+        <Command name="open file" Ctrl="no" Alt="yes" Shift="no" Key="116">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD)</Command>
+        <Command name="open in another instance" Ctrl="no" Alt="yes" Shift="no" Key="117">$(NPP_DIRECTORY)\notepad++.exe $(CURRENT_WORD) -nosession -multiInst</Command>
+    </UserDefinedCommands>
+    <PluginCommands />
+    <ScintillaKeys>
+        <ScintKey ScintID="2333" menuCmdID="44023" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2334" menuCmdID="44024" Ctrl="no" Alt="no" Shift="no" Key="0" />
+        <ScintKey ScintID="2373" menuCmdID="44033" Ctrl="no" Alt="no" Shift="no" Key="0" />
+    </ScintillaKeys>
+</NotepadPlus>
