@@ -11,17 +11,17 @@
         <GUIConfig name="ScintillaViewsSplitter">vertical</GUIConfig>
         <!-- For the attribut of position, 2 status : docked or undocked ; 2 status : "show" or "hide" -->
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
-        <GUIConfig name="TabSetting" size="4" replaceBySpace="yes" />
+        <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="163" y="242" width="636" height="593" isMaximized="yes" />
+        <GUIConfig name="AppPosition" x="63" y="66" width="1086" height="823" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="-1" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
-        <GUIConfig name="ScintillaSecondaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="-1" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" />
+        <GUIConfig name="ScintillaSecondaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" />
         <GUIConfig name="Auto-detection">yes</GUIConfig>
         <GUIConfig name="CheckHistoryFiles">no</GUIConfig>
         <GUIConfig name="TrayIcon">no</GUIConfig>
@@ -54,7 +54,7 @@
                                 1 : simple backup
                                 2 : verbose backup
                       -->
-        <GUIConfig name="Backup" action="2" useCustumDir="no" dir="" />
+        <GUIConfig name="Backup" action="2" useCustumDir="yes" dir="C:\Documents and Settings\jocelyn\My Documents\NppBackups" />
         <GUIConfig name="TaskList">yes</GUIConfig>
         <GUIConfig name="SaveOpenFileInSameDir">no</GUIConfig>
         <!--
@@ -73,7 +73,7 @@
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">2</GUIConfig>
-        <GUIConfig name="globalOverride" fg="no" bg="yes" font="yes" fontSize="yes" bold="no" italic="no" underline="no" />
+        <GUIConfig name="globalOverride" fg="no" bg="yes" font="yes" fontSize="yes" bold="yes" italic="yes" underline="no" />
         <GUIConfig name="auto-completion" autoCAction="0" triggerFromNbChar="1" funcParams="no" />
         <GUIConfig name="sessionExt"></GUIConfig>
         <GUIConfig name="SmartHighLight">yes</GUIConfig>
@@ -83,12 +83,12 @@
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="C:\Documents and Settings\jocelyn\Application Data\Notepad++\stylers.xml" />
-        <GUIConfig name="EnableWheelZoom">yes</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="213" rightWidth="282" topHeight="200" bottomHeight="223">
+        <GUIConfig name="EnableWheelZoom">no</GUIConfig>
+        <GUIConfig name="DockingManager" leftWidth="213" rightWidth="282" topHeight="200" bottomHeight="194">
             <FloatingWindow cont="4" x="473" y="542" width="814" height="673" />
-            <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="-1" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
-            <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppNetNote.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="WindowManager.dll" id="0" curr="0" prev="-1" isVisible="no" />
@@ -98,31 +98,31 @@
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
             <ActiveTabs cont="3" activeTab="0" />
-            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="no" fifInHiddenFolder="no" dlgAlwaysVisible="no" searchMode="2" transparencyMode="1" transparency="150" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no">
-        <Path name="C:\Documents and Settings\jocelyn\Desktop" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="0" transparencyMode="1" transparency="150" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no">
         <Path name="C:\Code\Agent\agent\Game\Main\UnrealEngine3\BIOTools\_global" />
+        <Path name="C:\Documents and Settings\jocelyn\Desktop" />
         <Path name="//agent/Game/Main/UnrealEngine3/BIOTools/_global/" />
         <Path name="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz" />
-        <Filter name="*.txt " />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc " />
+        <Filter name="*.h" />
+        <Filter name="*.txt " />
         <Filter name="*.sql " />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc *.dfm" />
         <Filter name="*.*" />
         <Filter name="*.py *.pyw " />
-        <Find name="TForm" />
-        <Find name="almostautomated" />
-        <Find name="dialog" />
-        <Find name="popup" />
-        <Find name="Casual" />
         <Find name="timeout" />
-        <Find name="eTimeout" />
-        <Find name="repro" />
-        <Find name="IsCasual" />
-        <Find name="SET" />
+        <Find name="actSetTimou" />
+        <Find name="actSetTimeoutRe" />
+        <Find name="miNotCasual" />
+        <Find name="miTimeoutIndividual" />
+        <Find name="SetCasualRecursive" />
+        <Find name="miAmbientClick" />
+        <Find name="actSetCasual" />
+        <Find name="actSetCasualExecute" />
+        <Find name="MODULE_NAME" />
         <Replace name="Casual" />
         <Replace name="boCasual" />
         <Replace name="MsgTypes" />
@@ -134,5 +134,16 @@
         <Replace name="LintMessage" />
         <Replace name="LintItem" />
     </FindHistory>
-    <History nbMaxFile="0" />
+    <History nbMaxFile="10">
+        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messages.html" />
+        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messageSessCodes.html" />
+        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messageProjCodes.html" />
+        <File filename="C:\Program Files\Notepad++\change.log" />
+        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\NavelFuzzGatherer.py" />
+        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\NavelFuzzDB.py" />
+        <File filename="C:\Code\NavelFuzz\.git\logs\refs\remotes\origin\HEAD" />
+        <File filename="C:\Code\NavelFuzz\.git\logs\refs\heads\working" />
+        <File filename="C:\Code\NavelFuzz\.git\logs\refs\heads\master" />
+        <File filename="C:\Code\NavelFuzz\.git\logs\HEAD" />
+    </History>
 </NotepadPlus>
