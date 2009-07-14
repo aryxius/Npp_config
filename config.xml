@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="63" y="66" width="1086" height="823" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="77" y="124" width="1137" height="823" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -39,7 +39,7 @@
 					... (see source file)
 		-->
         <GUIConfig name="NewDocDefaultSettings" format="2" encoding="0" lang="0" openAnsiAsUTF8="no" />
-        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="133" gr3="51" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
+        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="51" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
         <!--
 		printOption is print colour setting, the following values are possible :
 			0 : WYSIWYG
@@ -84,12 +84,12 @@
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="C:\Documents and Settings\jocelyn\Application Data\Notepad++\stylers.xml" />
         <GUIConfig name="EnableWheelZoom">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="213" rightWidth="282" topHeight="200" bottomHeight="194">
+        <GUIConfig name="DockingManager" leftWidth="349" rightWidth="282" topHeight="200" bottomHeight="314">
             <FloatingWindow cont="4" x="473" y="542" width="814" height="673" />
             <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
-            <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="NppNetNote.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="WindowManager.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
@@ -101,7 +101,9 @@
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="0" transparencyMode="1" transparency="150" fifFilterFollowsDoc="no" fifFolderFollowsDoc="no">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="0" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\" />
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\src" />
         <Path name="C:\Code\Agent\agent\Game\Main\UnrealEngine3\BIOTools\_global" />
         <Path name="C:\Documents and Settings\jocelyn\Desktop" />
         <Path name="//agent/Game/Main/UnrealEngine3/BIOTools/_global/" />
@@ -113,16 +115,18 @@
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc *.dfm" />
         <Filter name="*.*" />
         <Filter name="*.py *.pyw " />
-        <Find name="timeout" />
-        <Find name="actSetTimou" />
-        <Find name="actSetTimeoutRe" />
-        <Find name="miNotCasual" />
-        <Find name="miTimeoutIndividual" />
-        <Find name="SetCasualRecursive" />
-        <Find name="miAmbientClick" />
-        <Find name="actSetCasual" />
-        <Find name="actSetCasualExecute" />
-        <Find name="MODULE_NAME" />
+        <Find name="FindInNodeComment" />
+        <Find name="ActiveControl" />
+        <Find name="Active" />
+        <Find name="TLabel" />
+        <Find name="TCustom" />
+        <Find name="eParaphrase" />
+        <Find name="dynamic" />
+        <Find name="FindInCurrentNode" />
+        <Find name="actFindNext" />
+        <Find name="STRREF" />
+        <Replace name="tran_sp_ResRefForceExported" />
+        <Replace name="sp_ResRefForceExport" />
         <Replace name="Casual" />
         <Replace name="boCasual" />
         <Replace name="MsgTypes" />
@@ -131,19 +135,6 @@
         <Replace name="stop_project_timer" />
         <Replace name="connection" />
         <Replace name="cursor" />
-        <Replace name="LintMessage" />
-        <Replace name="LintItem" />
     </FindHistory>
-    <History nbMaxFile="10">
-        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messages.html" />
-        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messageSessCodes.html" />
-        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\templates\messageProjCodes.html" />
-        <File filename="C:\Program Files\Notepad++\change.log" />
-        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\NavelFuzzGatherer.py" />
-        <File filename="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz\NavelFuzzDB.py" />
-        <File filename="C:\Code\NavelFuzz\.git\logs\refs\remotes\origin\HEAD" />
-        <File filename="C:\Code\NavelFuzz\.git\logs\refs\heads\working" />
-        <File filename="C:\Code\NavelFuzz\.git\logs\refs\heads\master" />
-        <File filename="C:\Code\NavelFuzz\.git\logs\HEAD" />
-    </History>
+    <History nbMaxFile="0" />
 </NotepadPlus>

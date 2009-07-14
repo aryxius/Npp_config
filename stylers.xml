@@ -38,15 +38,15 @@
             <WordsStyle name="ILLEGAL" styleID="11" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="asp" desc="asp" ext="asp">
-            <WordsStyle name="DEFAULT" styleID="81" fgColor="8000FF" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="COMMENTLINE" styleID="82" fgColor="008000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="NUMBER" styleID="83" fgColor="FF0000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="WORD" styleID="84" fgColor="000080" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" keywordClass="instre1" />
-            <WordsStyle name="STRING" styleID="85" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="STRINGEOL" styleID="87" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="IDENTIFIER" styleID="86" fgColor="000000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="ASPSYBOL" styleID="15" fgColor="000000" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" />
-            <WordsStyle name="SCRIPTTYPE" styleID="16" fgColor="000000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="DEFAULT" styleID="81" fgColor="A5A880" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="COMMENTLINE" styleID="82" fgColor="949494" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="NUMBER" styleID="83" fgColor="A6A60F" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="WORD" styleID="84" fgColor="9C976D" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" keywordClass="instre1" />
+            <WordsStyle name="STRING" styleID="85" fgColor="7295B8" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="STRINGEOL" styleID="87" fgColor="7295B8" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="IDENTIFIER" styleID="86" fgColor="B07B7B" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="ASPSYBOL" styleID="15" fgColor="A48494" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="SCRIPTTYPE" styleID="16" fgColor="89A789" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
         </LexerType>
         <LexerType name="asm" desc="Assembly" ext="">
             <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
@@ -323,11 +323,11 @@
             <WordsStyle name="DOUBLESTRING" styleID="48" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
             <WordsStyle name="SINGLESTRING" styleID="49" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
             <WordsStyle name="SYMBOLS" styleID="50" fgColor="000000" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" />
-            <WordsStyle name="STRINGEOL" styleID="51" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" />
+            <WordsStyle name="STRINGEOL" styleID="51" fgColor="808080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
             <WordsStyle name="REGEX" styleID="52" fgColor="8000FF" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
             <WordsStyle name="COMMENT" styleID="42" fgColor="008000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
             <WordsStyle name="COMMENTLINE" styleID="43" fgColor="008000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="008080" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
+            <WordsStyle name="COMMENTDOC" styleID="44" fgColor="FF8000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
         </LexerType>
         <LexerType name="kix" desc="KiXtart" ext="">
             <!--
@@ -700,13 +700,13 @@
             <WordsStyle name="ERROR" styleID="8" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="searchResult" desc="Search result" ext="">
-            <WordsStyle name="Default" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="9" />
-            <WordsStyle name="Search Header" styleID="1" fgColor="000080" bgColor="BBBBFF" fontName="" fontStyle="1" fontSize="9" />
-            <WordsStyle name="File Header" styleID="2" fgColor="008000" bgColor="D5FFD5" fontName="" fontStyle="1" fontSize="9" />
-            <WordsStyle name="Line Number" styleID="3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="9" />
-            <WordsStyle name="Hit Word" styleID="4" fgColor="FF0000" bgColor="FFFFBF" fontName="" fontStyle="0" fontSize="9" />
-            <WordsStyle name="Selected Line" styleID="5" fgColor="000080" bgColor="FFFF4F" fontName="" fontStyle="0" fontSize="9" />
-            <WordsStyle name="Current line background colour" styleID="6" bgColor="E8E8FF" />
+            <WordsStyle name="Default" styleID="0" fgColor="A5A880" bgColor="404040" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="Search Header" styleID="1" fgColor="89A789" bgColor="404040" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="File Header" styleID="2" fgColor="AA976D" bgColor="404040" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="Line Number" styleID="3" fgColor="AA976D" bgColor="404040" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="Hit Word" styleID="4" fgColor="C6CA8A" bgColor="404040" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="Selected Line" styleID="5" fgColor="C0C0C0" bgColor="7F7F7F" fontName="" fontStyle="0" fontSize="9" />
+            <WordsStyle name="Current line background colour" styleID="6" bgColor="5C5C5C" />
         </LexerType>
     </LexerStyles>
     <GlobalStyles>
@@ -714,7 +714,7 @@
         <WidgetStyle name="Global override" styleID="0" fgColor="A5A880" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Default Style" styleID="32" fgColor="A5A880" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Indent guideline style" styleID="37" fgColor="505050" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
-        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FF80FF" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" />
+        <WidgetStyle name="Brace highlight style" styleID="34" fgColor="FFFFFF" bgColor="404040" fontName="ProFontWindows" fontStyle="1" fontSize="9" />
         <WidgetStyle name="Bad brace colour" styleID="35" fgColor="A40000" bgColor="404040" fontName="ProFontWindows" fontStyle="0" fontSize="9" />
         <WidgetStyle name="Current line background colour" styleID="0" bgColor="505050" />
         <WidgetStyle name="Mark colour" styleID="0" fgColor="FF8000" bgColor="FFFF00" />
@@ -736,7 +736,7 @@
         <WidgetStyle name="Inactive tabs" styleID="0" fgColor="808080" bgColor="C0C0C0" />
         <WidgetStyle name="Unsaved change marker" styleID="0" bgColor="FEE389" />
         <WidgetStyle name="Saved change marker" styleID="0" bgColor="A4FFB1" />
-        <WidgetStyle name="Hot spot" styleID="0" fgColor="008080" bgColor="404040" />
+        <WidgetStyle name="Hot spot" styleID="0" fgColor="008080" bgColor="5C5C5C" />
         <WidgetStyle name="Mark Style 1" styleID="25" bgColor="00FFFF" />
         <WidgetStyle name="Mark Style 2" styleID="24" bgColor="FF8000" />
         <WidgetStyle name="Mark Style 3" styleID="23" bgColor="FFFF00" />
