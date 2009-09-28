@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="77" y="124" width="1137" height="823" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="0" y="0" width="1157" height="866" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -69,7 +69,7 @@
 						3 : bottom
 						>= 4 : undocked -> FloatingWindow id
 			-->
-        <GUIConfig name="noUpdate">no</GUIConfig>
+        <GUIConfig name="noUpdate" intervalDays="15" nextUpdateDate="20080426">no</GUIConfig>
         <GUIConfig name="MaitainIndent">yes</GUIConfig>
         <GUIConfig name="MRU">yes</GUIConfig>
         <GUIConfig name="URL">2</GUIConfig>
@@ -84,30 +84,35 @@
         <GUIConfig name="titleBar" short="no" />
         <GUIConfig name="stylerTheme" path="C:\Documents and Settings\jocelyn\Application Data\Notepad++\stylers.xml" />
         <GUIConfig name="EnableWheelZoom">no</GUIConfig>
-        <GUIConfig name="DockingManager" leftWidth="349" rightWidth="282" topHeight="200" bottomHeight="314">
+        <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
+        <GUIConfig name="DockingManager" leftWidth="237" rightWidth="282" topHeight="200" bottomHeight="363">
             <FloatingWindow cont="4" x="473" y="542" width="814" height="673" />
-            <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
+            <PluginDlg pluginName="NppExec" id="-1" curr="0" prev="-1" isVisible="yes" />
+            <PluginDlg pluginName="dummy" id="0" curr="0" prev="4" isVisible="yes" />
             <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
-            <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppNetNote.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="WindowManager.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="FunctionList_unicode.dll" id="0" curr="1" prev="-1" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="-1" />
+            <ActiveTabs cont="0" activeTab="0" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="0" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
-        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\" />
-        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\src" />
-        <Path name="C:\Code\Agent\agent\Game\Main\UnrealEngine3\BIOTools\_global" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="1" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
         <Path name="C:\Documents and Settings\jocelyn\Desktop" />
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\Binaries" />
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\src" />
+        <Path name="c:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\" />
+        <Path name="C:\Code\NavelFuzz\templates" />
+        <Path name="C:\Code\sfx2\Game\Utilities\ResavePackagesAuto" />
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\agent\conversation\src" />
+        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\" />
+        <Path name="C:\Code\Agent\agent\Game\Main\UnrealEngine3\BIOTools\_global" />
         <Path name="//agent/Game/Main/UnrealEngine3/BIOTools/_global/" />
-        <Path name="C:\Code\Agent\agent\Game\Main\Programming\Jocelyn\NavelFuzz" />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc " />
         <Filter name="*.h" />
         <Filter name="*.txt " />
@@ -115,26 +120,26 @@
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc *.dfm" />
         <Filter name="*.*" />
         <Filter name="*.py *.pyw " />
-        <Find name="FindInNodeComment" />
-        <Find name="ActiveControl" />
-        <Find name="Active" />
-        <Find name="TLabel" />
-        <Find name="TCustom" />
-        <Find name="eParaphrase" />
-        <Find name="dynamic" />
-        <Find name="FindInCurrentNode" />
-        <Find name="actFindNext" />
-        <Find name="STRREF" />
+        <Find name="CSCRIPT" />
+        <Find name="Creating" />
+        <Find name='&quot;Creating&quot;' />
+        <Find name="nbmax" />
+        <Find name="::drawTabItem" />
+        <Find name="getcolour" />
+        <Find name="deleteitemat" />
+        <Find name="delete" />
+        <Find name="colou" />
+        <Find name="_incrementFindDlg" />
+        <Replace name="dadjahoss" />
+        <Replace name="BWE-SQLSUPPORT1" />
+        <Replace name="String" />
+        <Replace name="SFX2_joce_main" />
         <Replace name="tran_sp_ResRefForceExported" />
         <Replace name="sp_ResRefForceExport" />
         <Replace name="Casual" />
         <Replace name="boCasual" />
         <Replace name="MsgTypes" />
         <Replace name="time_session_start" />
-        <Replace name="session_duration" />
-        <Replace name="stop_project_timer" />
-        <Replace name="connection" />
-        <Replace name="cursor" />
     </FindHistory>
     <History nbMaxFile="0" />
 </NotepadPlus>
