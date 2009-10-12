@@ -13,7 +13,7 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="0" y="0" width="1157" height="866" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="21" y="31" width="1214" height="917" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
@@ -39,7 +39,7 @@
 					... (see source file)
 		-->
         <GUIConfig name="NewDocDefaultSettings" format="2" encoding="0" lang="0" openAnsiAsUTF8="no" />
-        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="51" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
+        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="35" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
         <!--
 		printOption is print colour setting, the following values are possible :
 			0 : WYSIWYG
@@ -85,34 +85,36 @@
         <GUIConfig name="stylerTheme" path="C:\Documents and Settings\jocelyn\Application Data\Notepad++\stylers.xml" />
         <GUIConfig name="EnableWheelZoom">no</GUIConfig>
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
-        <GUIConfig name="DockingManager" leftWidth="237" rightWidth="282" topHeight="200" bottomHeight="363">
-            <FloatingWindow cont="4" x="473" y="542" width="814" height="673" />
-            <PluginDlg pluginName="NppExec" id="-1" curr="0" prev="-1" isVisible="yes" />
-            <PluginDlg pluginName="dummy" id="0" curr="0" prev="4" isVisible="yes" />
+        <GUIConfig name="DockingManager" leftWidth="235" rightWidth="282" topHeight="200" bottomHeight="151">
+            <FloatingWindow cont="4" x="1408" y="333" width="1891" height="619" />
+            <FloatingWindow cont="5" x="1408" y="333" width="1891" height="619" />
+            <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="dummy" id="0" curr="5" prev="3" isVisible="yes" />
             <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppNetNote.dll" id="0" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="WindowManager.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="Explorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="FunctionList_unicode.dll" id="0" curr="1" prev="-1" isVisible="no" />
-            <ActiveTabs cont="0" activeTab="0" />
+            <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="no" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="1" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="1" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
+        <Path name="U:\jocelyn" />
         <Path name="C:\Documents and Settings\jocelyn\Desktop" />
+        <Path name="C:\Code\live\dev\src\ToolsAndUtilities\DVDManifestGen\DVDManifestGen" />
+        <Path name="C:\Code\notepad-plus\PowerEditor\tests\support" />
         <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\Binaries" />
         <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\src" />
         <Path name="c:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\" />
         <Path name="C:\Code\NavelFuzz\templates" />
         <Path name="C:\Code\sfx2\Game\Utilities\ResavePackagesAuto" />
         <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\agent\conversation\src" />
-        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\" />
-        <Path name="C:\Code\Agent\agent\Game\Main\UnrealEngine3\BIOTools\_global" />
-        <Path name="//agent/Game/Main/UnrealEngine3/BIOTools/_global/" />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc " />
         <Filter name="*.h" />
         <Filter name="*.txt " />
@@ -120,16 +122,19 @@
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc *.dfm" />
         <Filter name="*.*" />
         <Filter name="*.py *.pyw " />
-        <Find name="CSCRIPT" />
-        <Find name="Creating" />
-        <Find name='&quot;Creating&quot;' />
-        <Find name="nbmax" />
-        <Find name="::drawTabItem" />
-        <Find name="getcolour" />
-        <Find name="deleteitemat" />
-        <Find name="delete" />
-        <Find name="colou" />
-        <Find name="_incrementFindDlg" />
+        <Find name="bik" />
+        <Find name="\Cooked\" />
+        <Find name=".xxx" />
+        <Find name="CookedXenon" />
+        <Find name="except" />
+        <Find name="Check" />
+        <Find name="explorer" />
+        <Find name="Fix" />
+        <Find name="RoxyScroll" />
+        <Find name="Name" />
+        <Replace name="\CookedPC\" />
+        <Replace name=".pcc" />
+        <Replace name="Cooked" />
         <Replace name="dadjahoss" />
         <Replace name="BWE-SQLSUPPORT1" />
         <Replace name="String" />
@@ -137,9 +142,6 @@
         <Replace name="tran_sp_ResRefForceExported" />
         <Replace name="sp_ResRefForceExport" />
         <Replace name="Casual" />
-        <Replace name="boCasual" />
-        <Replace name="MsgTypes" />
-        <Replace name="time_session_start" />
     </FindHistory>
     <History nbMaxFile="0" />
 </NotepadPlus>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="Windows-1252" standalone="No" ?>
-<!--This is the configuration and state file for Notepad++ Change Markers.-->
-<!--These values should not be changed manually.-->
+<?xml version="1.0" encoding="Windows-1252" ?>
+<!-- This is the configuration and state file for NppPlugin_Changemarker. -->
+<!-- These values should not be changed manually except where noted. -->
 <NotepadPlus>
     <Languages>
         <Language name="Change Marks" ext="" />
@@ -12,7 +12,12 @@
         </LexerType>
     </LexerStyles>
     <GUIConfigs>
-        <GUIConfig name="SciMarkers" trackUNDOREDO="true" margin="MARGIN_CHANGES" />
-        <GUIConfig name="JumpControl" includeSaved="false" />
+        <GUIConfig name="SciMarkers" trackUNDOREDO="true" active="true" display="false" margin="MARGIN_PLUGIN" />
+        <!-- MANUAL EDITING: -->
+        <!-- markType matches mark types for Scintilla markers-->
+        <!-- xpm file must be located in the \plugins\config\icons\ directory with .xpm extension-->
+        <!-- alpha ( 0 to 255 ) outside of this range forces internal calculation based on background color. -->
+        <GUIConfig name="CM_SAVED" markType="SC_MARK_PIXMAP" xpm="cm_saved.xpm" alpha="-1" displayMark="true" />
+        <GUIConfig name="CM_NOTSAVED" markType="SC_MARK_PIXMAP" xpm="cm_notsaved.xpm" alpha="-1" displayMark="true" />
     </GUIConfigs>
 </NotepadPlus>
