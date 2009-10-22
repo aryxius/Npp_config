@@ -6,7 +6,7 @@
     <GUIConfigs>
         <!-- Valid values for pluginMargin are "show" and "hide" -->
         <!-- The margin follows the same width defaults as the others ( 16 pixels wide ) -->
-        <GUIConfig name="MAIN_VIEW" pluginMargin="show" />
-        <GUIConfig name="SUB_VIEW" pluginMargin="show" />
+        <GUIConfig name="MAIN_VIEW" pluginMargin="hide" />
+        <GUIConfig name="SUB_VIEW" pluginMargin="hide" />
     </GUIConfigs>
 </NotepadPlus>
