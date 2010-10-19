@@ -15,7 +15,6 @@
         <Shortcut id="50005" Ctrl="yes" Alt="no" Shift="no" Key="188" />
         <Shortcut id="42021" Ctrl="yes" Alt="no" Shift="no" Key="190" />
         <Shortcut id="43013" Ctrl="yes" Alt="no" Shift="no" Key="81" />
-        <Shortcut id="1054" Ctrl="no" Alt="no" Shift="no" Key="117" />
         <Shortcut id="44042" Ctrl="no" Alt="no" Shift="no" Key="0" />
     </InternalCommands>
     <Macros>

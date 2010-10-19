@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="269" y="27" width="926" height="874" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="2052" y="187" width="856" height="715" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" lineWrapMethod="aligned" zoom2="0" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -38,7 +38,7 @@
 					1 -> L_PHP
 					... (see source file)
 		-->
-        <GUIConfig name="NewDocDefaultSettings" format="2" encoding="0" lang="0" openAnsiAsUTF8="no" />
+        <GUIConfig name="NewDocDefaultSettings" format="0" encoding="1" lang="0" openAnsiAsUTF8="no" />
         <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="35" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
         <!--
 		printOption is print colour setting, the following values are possible :
@@ -54,7 +54,7 @@
                                 1 : simple backup
                                 2 : verbose backup
                       -->
-        <GUIConfig name="Backup" action="2" useCustumDir="yes" dir="C:\Documents and Settings\jocelyn\My Documents\NppBackups" />
+        <GUIConfig name="Backup" action="2" useCustumDir="yes" dir="C:\Users\jocelyn\My Documents\NppBackups" />
         <GUIConfig name="TaskList">yes</GUIConfig>
         <GUIConfig name="SaveOpenFileInSameDir">no</GUIConfig>
         <!--
@@ -82,12 +82,12 @@
         <GUIConfig name="Caret" width="1" blinkRate="250" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="C:\Documents and Settings\jocelyn\Application Data\Notepad++\stylers.xml" />
+        <GUIConfig name="stylerTheme" path="" />
         <GUIConfig name="EnableWheelZoom">no</GUIConfig>
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
-        <GUIConfig name="DockingManager" leftWidth="235" rightWidth="282" topHeight="200" bottomHeight="151">
+        <GUIConfig name="DockingManager" leftWidth="235" rightWidth="112" topHeight="200" bottomHeight="151">
             <FloatingWindow cont="4" x="430" y="265" width="913" height="551" />
-            <FloatingWindow cont="4" x="430" y="265" width="913" height="551" />
+            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
@@ -99,8 +99,7 @@
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="0" />
-            <ActiveTabs cont="4" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->

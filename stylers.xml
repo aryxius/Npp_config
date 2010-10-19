@@ -212,13 +212,13 @@
             <WordsStyle name="DIRECTIVE" styleID="12" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="diff" desc="DIFF" ext="">
-            <WordsStyle name="DEFAULT" styleID="0" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMENT" styleID="1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="COMMAND" styleID="2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
-            <WordsStyle name="HEADER" styleID="3" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="POSITION" styleID="4" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="DELETED" styleID="5" fgColor="808040" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
-            <WordsStyle name="ADDED" styleID="6" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="DEFAULT" styleID="0" fgColor="A5A880" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="949494" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="COMMAND" styleID="2" fgColor="7295B8" bgColor="FFFFFF" fontName="" fontStyle="1" fontSize="" />
+            <WordsStyle name="HEADER" styleID="3" fgColor="88699E" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="POSITION" styleID="4" fgColor="CA9E4F" bgColor="FFFFFF" fontName="" fontStyle="4" fontSize="" />
+            <WordsStyle name="DELETED" styleID="5" fgColor="B07B7B" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
+            <WordsStyle name="ADDED" styleID="6" fgColor="89A789" bgColor="FFFFFF" fontName="" fontStyle="0" fontSize="" />
         </LexerType>
         <LexerType name="nfo" desc="Dos Style" ext="">
             <WordsStyle name="DEFAULT" styleID="32" fgColor="C0C0C0" bgColor="000000" fontSize="10" fontStyle="0" />
