@@ -13,11 +13,11 @@
         <GUIConfig name="UserDefineDlg" position="undocked">hide</GUIConfig>
         <GUIConfig name="TabSetting" size="4" replaceBySpace="no" />
         <!--App position-->
-        <GUIConfig name="AppPosition" x="2052" y="187" width="856" height="715" isMaximized="no" />
+        <GUIConfig name="AppPosition" x="2134" y="159" width="1183" height="963" isMaximized="no" />
         <!-- For the primary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box"  -->
-        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="no" edge="line" edgeNbColumn="132" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" lineWrapMethod="aligned" zoom2="0" />
+        <GUIConfig name="ScintillaPrimaryView" lineNumberMargin="show" bookMarkMargin="hide" folderMarkStyle="box" indentGuideLine="show" currentLineHilitingShow="show" Wrap="yes" edge="line" edgeNbColumn="120" wrapSymbolShow="hide" zoom="0" whiteSpaceShow="hide" eolShow="hide" docChangeStateMargin="show" lineWrapMethod="aligned" zoom2="0" />
         <!-- For the secodary scintilla view,
              2 status for Attribut lineNumberMargin, bookMarkMargin, indentGuideLine and currentLineHilitingShow: "show" or "hide"
              4 status for Attribut folderMarkStyle : "simple", "arrow", "circle" and "box" -->
@@ -39,7 +39,7 @@
 					... (see source file)
 		-->
         <GUIConfig name="NewDocDefaultSettings" format="0" encoding="1" lang="0" openAnsiAsUTF8="no" />
-        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="35" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="no" />
+        <GUIConfig name="langsExcluded" gr0="0" gr1="8" gr2="132" gr3="35" gr4="192" gr5="76" gr6="2" gr7="0" langMenuCompact="yes" />
         <!--
 		printOption is print colour setting, the following values are possible :
 			0 : WYSIWYG
@@ -82,14 +82,15 @@
         <GUIConfig name="Caret" width="1" blinkRate="250" />
         <GUIConfig name="openSaveDir" value="0" defaultDirPath="" />
         <GUIConfig name="titleBar" short="no" />
-        <GUIConfig name="stylerTheme" path="" />
+        <GUIConfig name="stylerTheme" path="C:\Users\jocelyn\AppData\Roaming\Notepad++\stylers.xml" />
         <GUIConfig name="EnableWheelZoom">no</GUIConfig>
         <GUIConfig name="ScintillaGlobalSettings" enableMultiSelection="no" />
-        <GUIConfig name="DockingManager" leftWidth="235" rightWidth="112" topHeight="200" bottomHeight="151">
+        <GUIConfig name="DockingManager" leftWidth="235" rightWidth="112" topHeight="200" bottomHeight="225">
             <FloatingWindow cont="4" x="430" y="265" width="913" height="551" />
-            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
+            <FloatingWindow cont="4" x="430" y="265" width="913" height="551" />
             <PluginDlg pluginName="NppExec" id="-1" curr="3" prev="4" isVisible="yes" />
             <PluginDlg pluginName="dummy" id="0" curr="3" prev="4" isVisible="yes" />
+            <PluginDlg pluginName="ComparePlugin.dll" id="9" curr="1" prev="-1" isVisible="no" />
             <PluginDlg pluginName="LightExplorer.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="MultiClipboard.dll" id="0" curr="0" prev="-1" isVisible="no" />
             <PluginDlg pluginName="NppNetNote.dll" id="0" curr="1" prev="-1" isVisible="no" />
@@ -99,48 +100,62 @@
             <ActiveTabs cont="0" activeTab="-1" />
             <ActiveTabs cont="1" activeTab="-1" />
             <ActiveTabs cont="2" activeTab="-1" />
-            <ActiveTabs cont="3" activeTab="-1" />
+            <ActiveTabs cont="3" activeTab="0" />
+            <ActiveTabs cont="4" activeTab="-1" />
         </GUIConfig>
     </GUIConfigs>
     <!-- The History of opened files list -->
-    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="yes" matchCase="yes" wrap="yes" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="1" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
-        <Path name="I:\ME2_PC\Retail_Work\PC_EFIG\Disc1\data" />
-        <Path name="U:\jocelyn" />
-        <Path name="C:\Documents and Settings\jocelyn\Desktop" />
-        <Path name="C:\Code\live\dev\src\ToolsAndUtilities\DVDManifestGen\DVDManifestGen" />
-        <Path name="C:\Code\notepad-plus\PowerEditor\tests\support" />
-        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\Binaries" />
-        <Path name="C:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\gui\editor\dlg\src" />
-        <Path name="c:\Code\sfx2\Game\Main\UnrealEngine3\BioTools\_global\" />
-        <Path name="C:\Code\NavelFuzz\templates" />
-        <Path name="C:\Code\sfx2\Game\Utilities\ResavePackagesAuto" />
+    <FindHistory nbMaxFindHistoryPath="10" nbMaxFindHistoryFilter="10" nbMaxFindHistoryFind="10" nbMaxFindHistoryReplace="10" matchWord="no" matchCase="no" wrap="no" directionDown="yes" fifRecuisive="yes" fifInHiddenFolder="yes" dlgAlwaysVisible="no" searchMode="0" transparencyMode="0" transparency="200" fifFilterFollowsDoc="no" fifFolderFollowsDoc="yes">
+        <Path name="C:\Code\nant-0.90" />
+        <Path name="C:\BioWare\ME3\Updater\Targets" />
+        <Path name="C:\BioWare\ME3\Updater" />
+        <Path name="C:\BioWare\ME3_QA\Updater\Targets" />
+        <Path name="C:\BioWare\ME3_QA\Updater" />
+        <Path name="c:\Code\sfx3\Game\Main\UnrealEngine3\BioTools\database\Production\content" />
+        <Path name="c:\Code\sfx3\Game\Main\UnrealEngine3\BioTools\database\Production\content\ContentMigrationScripts" />
+        <Path name="C:\Code\sfx3\Game\Main\UnrealEngine3\BioTools\UnrealAssetTracker" />
+        <Path name="C:\Code\tools\dev\Updater\" />
+        <Path name="C:\Code\tools\dev\Updater\Targets" />
+        <Filter name="*.*" />
+        <Filter name="*.sql" />
+        <Filter name="*.build" />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc " />
         <Filter name="*.h" />
         <Filter name="*.txt " />
         <Filter name="*.sql " />
         <Filter name="*.h *.hpp *.hxx *.cpp *.cxx *.cc *.dfm" />
-        <Filter name="*.*" />
         <Filter name="*.py *.pyw " />
-        <Find name="2542503180" />
-        <Find name="other" />
-        <Find name="apps" />
-        <Find name="369508890" />
-        <Find name="188870644" />
-        <Find name="bik" />
-        <Find name="\Cooked\" />
-        <Find name=".xxx" />
-        <Find name="CookedXenon" />
-        <Find name="except" />
+        <Find name="approac" />
+        <Find name="property" />
+        <Find name="Revolt of the Troops: Hastings Reports In From Afghanistan" />
+        <Find name="the online archive." />
+        <Find name="This article appeared in the " />
+        <Find name="This article appeared in the July 8-22, 2010 issue of Rolling Stone. The issue is available in the online archive." />
+        <Find name="Hastings on McChrystal: To Fire, or Not to Fire?" />
+        <Find name="install" />
+        <Find name="python" />
+        <Find name="sendmail" />
+        <Replace name="Python" />
+        <Replace name="\1 lord" />
+        <Replace name="    " />
+        <Replace name="&lt;hello&gt; \1" />
         <Replace name="\CookedPC\" />
         <Replace name=".pcc" />
         <Replace name="Cooked" />
         <Replace name="dadjahoss" />
         <Replace name="BWE-SQLSUPPORT1" />
         <Replace name="String" />
-        <Replace name="SFX2_joce_main" />
-        <Replace name="tran_sp_ResRefForceExported" />
-        <Replace name="sp_ResRefForceExport" />
-        <Replace name="Casual" />
     </FindHistory>
-    <History nbMaxFile="0" />
+    <History nbMaxFile="10">
+        <File filename="C:\Users\jocelyn\Desktop\why-isnt-wall-street-in-jail-20110216.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\wall-streets-naked-swindle-20100405.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\the-gops-dirty-war-20100303.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\matt-taibbi-on-the-tea-party-20100928.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\matt-taibbi-the-crying-shame-of-john-boehner-20110105.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\the-great-american-bubble-machine-20100405.htm" />
+        <File filename="C:\Users\jocelyn\Desktop\Jeopardy, IBM, and Wolfram_Alpha _ blog.stephenwolfram.com _ Readability.pdf" />
+        <File filename="C:\Users\jocelyn\Desktop\Stephen Wolfram Blog   Jeopardy, IBM, and Wolfram_Alpha.htm" />
+        <File filename="C:\Users\jocelyn\Documents\My Dropbox\foobar\columnUILayout_2011_02_22.fcl" />
+        <File filename="C:\Users\jocelyn\Documents\My Dropbox\Exported-2010-10-19 - Copy.vssettings" />
+    </History>
 </NotepadPlus>
